@@ -1,0 +1,45 @@
+{
+     "note": null,
+     "zones_with_problems": ["west" , "middle", "east"], 
+         "date": 20241111,
+         "url": "http://www.cubadebate.cu/noticias/2024/11/11/union-electrica-se-estima-un-deficit-de-generacion-superior-a-los-8", 
+         "prediction": {
+         "availability": 1995,  
+         "demand_max": 2700,
+         "impact": 885,
+         "deficit": 785,
+         "backup": 0
+   },
+     "morning_info": {
+         "time": 0, 
+         "availability": 0, 
+         "demand": 0, 
+         "deficit": 0 
+   }, 
+     "plants": [
+       {
+             "broken": {
+                 "EG": ["3"],
+                 "AM": ["6"]
+            },
+             "maintenance": {
+                 "AM": ["5"],
+                 "CM": ["3"],
+                 "EG": ["2"]
+            },
+             "limitation": 0
+   } 
+],
+     "distributed": {
+         "motors_with_problems": 0,
+         "total_impact": 0,
+         "combustible_problem": 0,
+         "ships_with_problems": 0,
+         "motors_impact": 0
+   },
+     "impact": {
+         "total_hours": 13,
+         "max": 597,
+         "max_hour": 1820
+   }
+}

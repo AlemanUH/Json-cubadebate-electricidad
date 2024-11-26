@@ -1,0 +1,46 @@
+{
+     "note": null,
+     "zones_with_problems": ["west"], 
+         "date": 20241117,
+         "url": "http://www.cubadebate.cu/noticias/2024/11/17/une-se-pronostica-una-afectacion-de-1421-mw-en-el-horario-pico/", 
+         "prediction": {
+         "availability": 1749,  
+         "demand_max": 3100,
+         "impact": 1421,
+         "deficit": 1351,
+         "backup": 0
+   },
+     "morning_info": {
+         "time": "0700", 
+         "availability": 1470, 
+         "demand": 2220, 
+         "deficit": 750
+   }, 
+     "plants": [
+       {
+             "broken": {
+                 "DO": ["6"],
+                 "LR": ["2"],
+                 "AM": ["3","6"]
+            },
+             "maintenance": {
+                 "AM": ["5"],
+                 "CM": ["3","4"],
+                 "EG": ["2"]
+             },
+             "limitation": 346
+   } 
+],
+     "distributed": {
+         "motors_with_problems": 49,
+         "total_impact": 558,
+         "combustible_problem": true,
+         "ships_with_problems": 3,
+         "motors_impact": 287
+   },
+     "impact": {
+         "total_hours": 24,
+         "max": 1615,
+         "max_hour": 1820
+   }
+}
